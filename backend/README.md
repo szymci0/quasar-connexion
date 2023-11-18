@@ -5,7 +5,7 @@
 4. Added optional query parameter to API endpoint spec [api_spec.yml](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/lib/api_spec.yaml#L83C18-L83C18)
 5. Updated get endpoint to accept new query parameter and allow user to fetch only articles with release_date in chosen year. [view_articles.py](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/lib/views/view_articles.py#L8)
 
-Proof of working on my local machine: [VIDEO]()
+Proof of working on my local machine: [VIDEO](https://drive.google.com/file/d/1RGquvCQYfebYgHirn1hUyZTHSla1EEir/view?usp=sharing)
 
 
 
