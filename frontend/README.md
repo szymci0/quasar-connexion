@@ -9,7 +9,7 @@
 5. Created custom modal component - [ArticleModal.vue](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/components/ArticleModal.vue)
 6. Implemented main page using all previous points - [MainPage.vue](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/pages/MainPage.vue)
 
-PROOF OF WORKING: [VIDEO on google drive]()
+PROOF OF WORKING: [VIDEO on google drive](https://drive.google.com/file/d/1U4p-BAiKkisJGpzBxMIzlptjYJ_4FtqX/view?usp=sharing)
 
 A Quasar Project
 
