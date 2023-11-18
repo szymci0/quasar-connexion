@@ -1,11 +1,9 @@
 # What I've changed
-
-1. Deleted n dependency (not working on Windows)
-2. Fixed pinia initialization bug - [axios.ts](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/boot/axios.ts)
-3. Fixed token authorization bug - [axios_config.ts](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/api/axios_config.ts)
-4. Created functions for communication with backend - [article.ts](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/api/article.ts)
-5. Created custom modal component - [ArticleModal.vue](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/components/ArticleModal.vue)
-6. Implemented main page using all previous points - [MainPage.vue](https://github.com/szymci0/quasar-connexion/blob/main/frontend/src/pages/MainPage.vue)
+1. Fixed requirements.txt in order to build properly [requirements.txt](https://github.com/szymci0/quasar-connexion/blob/main/backend/requirements.txt)
+2. Added `release_date` field to Article model [models.py](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/lib/models.py#L29)
+3. Added one more fixture article with new field to setup_db [setup_db.py](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/setup_db.py#L28)
+4. Added optional query parameter to API endpoint spec [api_spec.yml](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/lib/api_spec.yaml#L83C18-L83C18)
+5. Updated get endpoint to accept new query parameter and allow user to fetch only articles with release_date in chosen year. [view_articles.py](https://github.com/szymci0/quasar-connexion/blob/f6a732705b90005078a566b94895f668515d8a15/backend/lib/views/view_articles.py#L8)
 
 Proof of working on my local machine: [VIDEO]()
 
